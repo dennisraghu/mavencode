@@ -21,7 +21,7 @@ public class RunTest {
 	@Test
 	public void runTest() throws InterruptedException { // for chrome
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/rajnigururajaacharya/Desktop/Test_Leaf/GIT/GIT_Maven/drivers");
+		System.setProperty("webdriver.chrome.driver", "/Users/rajnigururajaacharya/Desktop/Test_Leaf/GIT/GIT_Maven/drivers/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
